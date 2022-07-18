@@ -6,8 +6,9 @@
  * 2. Set up nodemailer message content
  * 3. then use sendMail method
  */
-const nodemailer = require('nodemailer');
+const nodemailer = require('nodemailer')
 require('dotenv').config()
+
 
  const transporter = nodemailer.createTransport( {
     service: 'gmail',
